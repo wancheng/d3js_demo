@@ -1,0 +1,35 @@
+<html><head><meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+</style>
+</head>
+<body>
+<div id="svg"></div>
+<script src="/js/d3.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/bar/group.js"></script>
+<script>
+group_bar('svg','上半年降雨比较');
+</script>
+</body></html>
